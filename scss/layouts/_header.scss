@@ -2,7 +2,8 @@
   background-color: #fff5ef;
   background-image: url(../../imges/pattern-light-bg.svg),
     url(../../imges/glow-bg.svg);
-  background-position: bottom right;
+  background-size: cover, contain;
+  background-position: center, bottom right -15px;
   background-repeat: no-repeat;
 }
 .navbar {
