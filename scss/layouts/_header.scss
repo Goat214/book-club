@@ -2,15 +2,14 @@
   background-color: #fff5ef;
   background-image: url(../../imges/pattern-light-bg.svg),
     url(../../imges/glow-bg.svg);
-    background-position: bottom right;
-    background-repeat: no-repeat;
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 .navbar {
   margin-top: 3.2rem;
   margin-bottom: 3.2rem;
 }
 .back {
-  
 }
 .container {
 }
@@ -41,7 +40,7 @@
   margin-bottom: 2.4rem;
 }
 .hero__left__description {
-  color: var(--colors-neutral-700, #385159);
+  color: $neutral-700;
 
   /* Text Preset 5 */
   font-family: "Inter";
@@ -106,7 +105,7 @@ a {
   }
 }
 .hero__left__bottom__description {
-  color: var(--colors-neutral-700, #385159);
+  color: $neutral-700;
   text-align: center;
 
   /* Text Preset 7 */
