@@ -1,0 +1,123 @@
+.header {
+background-color:#FFF5EF ;
+background-image: url(../../imges/pattern-light-bg.svg);
+}
+.navbar {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+.container {
+}
+.hero {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6.6rem; 
+}
+.site-logo {
+  margin-bottom: 8rem;
+}
+.hero__left {
+  width: 57rem;
+  margin-right: 6.4rem;
+  
+}
+.hero__left__title {
+  display: flex;
+  align-self: stretch;
+  font-family: "Martian Mono";
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -2px;
+  background: $text-gradient;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2.4rem;
+}
+.hero__left__description {
+  color: var(--colors-neutral-700, #385159);
+
+  /* Text Preset 5 */
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+.btn {
+    display: flex;
+    padding: var(--spacing-250, 20px) var(--spacing-300, 24px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-200, 1.4rem);
+    border-radius: 8px;
+border: 2px solid var(--colors-neutral-900, #062630);
+background: var(--colors-light-salmon-50, #FFF5EF);
+  
+}
+
+.btn__hero {
+   width: 38rem; 
+  color: var(--colors-neutral-900, #062630);
+  font-family: "Martian Mono";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; 
+  letter-spacing: -1px;
+  margin-bottom: 2.4rem;
+  &:hover {
+    border-radius: 8px;
+border: 2px solid var(--colors-neutral-900, #062630);
+background: linear-gradient(90deg, var(--colors-light-salmon-100, #FFE2D1) 0%, var(--colors-light-salmon-50, #FFF5EF) 100%);
+  }
+  img {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
+a {
+    
+}
+
+.hero__left__bottom {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+ 
+}
+
+.hero__left__bottom__avatar {
+    width: 11rem;
+    height: 4rem;
+
+}
+.hero__left__bottom__info {
+    
+    ul {
+        display: flex;
+    }
+}
+.hero__left__bottom__description {
+    color: var(--colors-neutral-700, #385159);
+text-align: center;
+
+/* Text Preset 7 */
+font-family: "Martian Mono";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 16.8px */
+letter-spacing: -1px;
+}
+
+.hero__right {
+  img {
+    width: 53.6rem;
+    height: 60.6rem;
+    border-radius: 1.2rem;
+  }
+}

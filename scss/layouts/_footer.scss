@@ -1,0 +1,129 @@
+.footer {
+  display: flex;
+  padding: var(--spacing-1000, 80px) 135px 0px 135px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-800, 64px);
+  align-self: stretch;
+  border-radius: var(--spacing-200, 16px) var(--spacing-200, 16px) 0px 0px;
+  background: var(--colors-neutral-900, #062630);
+}
+
+.footer__top {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 753px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-500, 40px);
+  margin-bottom: 6.4rem;
+}
+.footer__top__title {
+  color: var(--colors-neutral-50, #faf5f3);
+  text-align: center;
+
+  /* Text Preset 2 */
+  font-family: "Martian Mono";
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 65px */
+  letter-spacing: -2px;
+  width: 685px;
+}
+.btn {
+}
+.btn__footer {
+  display: flex;
+  padding: var(--spacing-250, 20px) var(--spacing-300, 24px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-200, 16px);
+  border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid var(--colors-neutral-0, #fff);
+  font-family: "Martian Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: -1px;
+  color: var(--colors-neutral-0, #fff);
+
+  /* Text Preset 6 */
+  font-family: "Martian Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: -1px;
+  &:hover {
+    border: 2px solid var(--colors-neutral-0, #fff);
+    background: linear-gradient(
+      90deg,
+      var(--colors-neutral-700, #385159) 0%,
+      var(--colors-neutral-900, #062630) 100%
+    );
+    color: var(--colors-neutral-0, #fff);
+  }
+
+  /* Text Preset 6 */
+}
+.hero__left__bottom__description__footer {
+  color: #faf5f3;
+  text-align: center;
+
+  /* Text Preset 7 */
+  font-family: "Martian Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: -1px;
+}
+.hero__left__bottom {
+}
+.hero__left__bottom__avatar {
+}
+.hero__left__bottom__info {
+}
+.hero__left__bottom__description {
+}
+.footer__hr {
+}
+
+.footer__last__soc {
+  display: flex;
+  align-items: center;
+  
+}
+
+.footer__last {
+  margin-top: 2.4rem;
+  margin-bottom: 2.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__last__p {
+  color: var(--colors-neutral-0, #fff);
+
+  /* Text Preset 7 */
+  font-family: "Martian Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+  letter-spacing: -1px;
+}
+
+.svvg {
+    margin-left: 2.4rem;
+    fill: #fff;
+    transition: 0.3s;
+}
+.svvg:hover {
+   fill-opacity: 0.6; 
+ 
+}
